@@ -10,6 +10,26 @@
     width: 100%;
     height: 1024px;
 }
+<<<<<<< HEAD
+.navbar{
+    color:white;
+   margin-left: 495px;
+    
+   
+   
+    
+}
+.navbar li{
+    display: inline-block;
+    padding: 45px;
+    font-size: 27px;
+    line-height: 33px;
+    line-height: 100%;
+    fill: solid;
+    font-family: inter;
+    font-style: black;
+    
+=======
 
 .about {
     
@@ -36,6 +56,7 @@ font-size: 55px;
 line-height: 63px;
 
 color: #E3D399;
+>>>>>>> 41326825855df6f3aa6f193bcecac52aed0fefcb
 }
 
 
