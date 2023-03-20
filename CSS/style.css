@@ -58,3 +58,30 @@ line-height: 63px;
 color: #E3D399;
 >>>>>>> 41326825855df6f3aa6f193bcecac52aed0fefcb
 }
+
+
+.image img{
+ position: absolute;
+width: 566px;
+height: 509px;
+left: 83px;
+top: 1244px;
+
+border-radius: 15px;  
+}
+
+.about_bbs{
+    position: absolute;
+width: 691px;
+height: 545px;
+left: 701px;
+top: 1244px;
+
+font-family: 'Arimo';
+font-style: normal;
+font-weight: 400;
+font-size: 25px;
+line-height: 29px;
+
+color: #FFFFFF;
+}
