@@ -1,6 +1,8 @@
 *{
     padding: 0;
     margin: 0;
+    
+    background: #000002;
 }
 
 .front {
@@ -8,6 +10,7 @@
     width: 100%;
     height: 1024px;
 }
+<<<<<<< HEAD
 .navbar{
     color:white;
    margin-left: 495px;
@@ -26,4 +29,32 @@
     font-family: inter;
     font-style: black;
     
+=======
+
+.about {
+    
+/* position: absolute; */
+width: 100%;
+height: 935px;
+/* left: 0px; */
+/* top: 909px; */
+
+}
+
+.head_about{
+    
+position: absolute;
+width: 287px;
+height: 93px;
+left: 577px;
+top: 1060px;
+
+font-family: 'Titan One';
+font-style: normal;
+font-weight: 400;
+font-size: 55px;
+line-height: 63px;
+
+color: #E3D399;
+>>>>>>> 41326825855df6f3aa6f193bcecac52aed0fefcb
 }
