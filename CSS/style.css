@@ -10,9 +10,20 @@
 }
 .navbar{
     color:white;
+   margin-left: 495px;
+    
+   
    
     
 }
 .navbar li{
     display: inline-block;
+    padding: 45px;
+    font-size: 27px;
+    line-height: 33px;
+    line-height: 100%;
+    fill: solid;
+    font-family: inter;
+    font-style: black;
+    
 }
