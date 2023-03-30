@@ -1,7 +1,7 @@
-*{
+* {
     padding: 0;
     margin: 0;
-    
+
 }
 
 .front {
@@ -11,32 +11,34 @@
     width: 100%;
     height: 100vh;
 }
-#head_font{
+
+#head_font {
     /* Beat_Breakers */
 
-position: absolute;
-width: 782px;
-height: 100vh;
-margin: 520px 500px;
-font-family: 'Titan One'; 
-font-style: normal;
-font-weight: 400;
-font-size: 96px;
-line-height: 110px;
-/* identical to box height */
-text-shadow: 10px 10px 20px red, 0 0 1em white, 0 0 0.2em white;
+    position: absolute;
+    width: 782px;
+    height: 100vh;
+    margin: 520px 500px;
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 96px;
+    line-height: 110px;
+    /* identical to box height */
+    text-shadow: 10px 10px 20px red, 0 0 1em white, 0 0 0.2em white;
 
-color: #E1C04B;
+    color: #E1C04B;
 
 
 }
-.navbar{
-    color:white;
-   margin-left: 25%;
+
+.navbar {
+    color: white;
+    margin-left: 25%;
     background: none;
 }
 
-.navbar li{
+.navbar li {
     display: inline-block;
     padding: 3%;
     font-size: 27px;
@@ -45,62 +47,206 @@ color: #E1C04B;
     fill: solid;
     font-family: inter;
     font-style: black;
-    
+
 }
 
 
-.image img{
- position: absolute;
-width: 566px;
-height: 509px;
-left: 83px;
-top: 1050px;
-border-radius: 15px;  
-}
-
-.about_bbs{
+.image img {
     position: absolute;
-width: 100vh;
-height: 100vh;
-left: 701px;
-top: 1100px;
+    width: 566px;
+    height: 509px;
+    left: 83px;
+    top: 1050px;
+    border-radius: 15px;
+}
 
-font-family: 'Arimo';
-font-style: normal;
-font-weight: 400;
-font-size: 25px;
-line-height: 29px;
+.about_bbs {
+    position: absolute;
+    width: 100vh;
+    height: 90%;
+    left: 701px;
+    top: 1100px;
 
-color: #FFFFFF;
+    font-family: 'Arimo';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 29px;
+
+    color: #FFFFFF;
 }
 
 .about {
     width: 100%;
-height: 110vh;
+    height: 110vh;
 
     background: #000002;
 }
 
 .head_about {
-    
+
 
     /* About us */
 
-position: absolute;
-width: 287px;
-height: 93px;
+    position: absolute;
+    width: 287px;
+    /* height: 93px; */
 
-top: 115%;
+    top: 115%;
 
-font-family: 'Titan One';
-font-style: normal;
-font-weight: 1000;
-font-size: 55px;
-left: 45%;
-line-height: 100px;
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 55px;
+    left: 45%;
+    line-height: 100px;
 
-color: #E3D399;
+    color: #E3D399;
 
-margin: auto;
-text-decoration: underline;
+    /* margin: auto; */
+    text-decoration: underline;
 }
+
+/* CSS about Event Section */
+
+.events img{
+    width: 400px;
+    height: 300px;
+
+}
+
+.events div img{
+    filter: grayscale(100%);
+    width: 100%;  
+}
+
+
+.events {
+    width: 900px;
+    /* border: 2px solid yellow; */
+    display: flex;
+    /* background-color: black; */
+    overflow-x: scroll;
+}
+
+
+
+.events div {
+    width: 100%;
+    display: grid;
+    margin-top: 10px;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    padding: 10px;
+    flex: none;
+}
+
+.events::-webkit-scrollbar {
+    display: none;
+}
+
+.event-wrap{
+    /* border: 2px solid green; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10%;
+}
+
+#backBtn , #nextBtn {
+    width: 50px;
+    cursor: pointer;
+    margin: 40px;
+}
+
+.events div img:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.event-section {
+    background-color: black;
+    border: 2px solid black;
+    padding-top: 80px;
+    height: 80vh;
+   
+
+    
+}
+.event-section h3{
+    
+    position: absolute;
+    /* width: 287px;
+    height: 93px; */
+
+
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 55px;
+    left: 45%;
+    line-height: 100px;
+
+    color: #E3D399;
+
+    margin: auto;
+    text-decoration: underline;
+}
+/* css for gallery(start) */
+.gallery_section{
+    background-color: black;
+    /* border: 2px solid red; */
+    padding-bottom: 50px;
+}
+.gallery_section h3{
+    /* border: 2px solid red; */
+    /* position: absolute; */
+    /* width: 287px;
+    height: 93px; */
+   text-align: center;
+
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 55px;
+    left: 45%;
+    line-height: 100px;
+
+    color: #E3D399;
+
+    margin: auto;
+    text-decoration: underline;
+
+}
+.gallery{
+    text-align: center;
+    /* border: 2px solid yellow; */
+    margin-top: 20px;
+    /* padding:100px; */
+    padding-top: 50px;
+}
+.gallery img{
+    height: 250px;
+    width: 350px;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+.gallery img:hover{
+   
+    cursor: pointer;
+    transform: scale(1.1);
+}
+.gallery_section a{
+    color: white;
+    font-size: x-large;
+    margin-left: 80%;
+    text-decoration: none;
+}
+.gallery_section a:hover{
+    color: yellow;
+    transform: scale(1.1);
+}
+
+
+/* Css for gallery(end) */
