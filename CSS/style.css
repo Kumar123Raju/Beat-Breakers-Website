@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+   
 
 }
 
@@ -250,3 +251,111 @@
 
 
 /* Css for gallery(end) */
+
+
+/* CSS for team */
+.team{
+    background-color: black;
+    color: white;
+    height: 100vh;
+}
+.team_headline h3{
+    text-align: center;
+
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 55px;
+    left: 45%;
+    line-height: 100px;
+
+    color: #E3D399;
+
+    margin: auto;
+    text-decoration: underline;
+}
+.position{
+    /* border:2px solid red; */
+    display:grid;
+    grid-template-areas:
+    'header1 header2 header3 header4'
+    ' footer footer footer footer';
+  gap: 5px;
+  background-color: black;
+  padding: 5px;
+  margin-left: 15%;
+  margin-right: 15%;
+  text-align: center ;
+}
+.nameplate{
+    border:2px solid white;
+    color:white;
+    height:100px;
+}
+.contact_section{
+    /* background-color: yellow; */
+    background-color: black;
+    height: 100vh;
+   
+}
+.contact_container {
+   margin-top: 100px;
+ 
+   width: 80%;
+   
+    /* border:10px solid red; */
+    display:flex;
+    
+}
+.content {
+    margin-left: 14vw ;
+    /* border: 5px solid gray; */
+    /* background-color: blue; */
+}
+
+.content h4{
+
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 25px;
+
+    color: white;
+
+    margin: auto;
+}
+.contact_form {
+    display: flex;
+    flex-direction: column;
+    border: 3px orange solid;
+    margin-left: 18vw;
+}
+
+.contact_form input,textarea{
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+}
+.contact_headline h3{
+    text-align: center;
+
+    font-family: 'Titan One';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 55px;
+    left: 45%;
+    line-height: 100px;
+
+    color: #E3D399;
+
+    margin: auto;
+    text-decoration: underline;
+}
+.position  img:hover{
+   
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+
+/* css for team (End)*/
