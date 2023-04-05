@@ -2,26 +2,43 @@
     padding: 0;
     margin: 0;
     
-    background: #000002;
 }
 
 .front {
     background: url(/Images/1251472.jpg);
+    /* background-size: cover; */
+    background-repeat: no-repeat;
     width: 100%;
-    height: 1024px;
+    height: 100vh;
 }
-<<<<<<< HEAD
+#head_font{
+    /* Beat_Breakers */
+
+position: absolute;
+width: 782px;
+height: 100vh;
+margin: 520px 500px;
+font-family: 'Titan One'; 
+font-style: normal;
+font-weight: 400;
+font-size: 96px;
+line-height: 110px;
+/* identical to box height */
+text-shadow: 10px 10px 20px red, 0 0 1em white, 0 0 0.2em white;
+
+color: #E1C04B;
+
+
+}
 .navbar{
     color:white;
-   margin-left: 495px;
-    
-   
-   
-    
+   margin-left: 25%;
+    background: none;
 }
+
 .navbar li{
     display: inline-block;
-    padding: 45px;
+    padding: 3%;
     font-size: 27px;
     line-height: 33px;
     line-height: 100%;
@@ -29,34 +46,6 @@
     font-family: inter;
     font-style: black;
     
-=======
-
-.about {
-    
-/* position: absolute; */
-width: 100%;
-height: 935px;
-/* left: 0px; */
-/* top: 909px; */
-
-}
-
-.head_about{
-    
-position: absolute;
-width: 287px;
-height: 93px;
-left: 577px;
-top: 1060px;
-
-font-family: 'Titan One';
-font-style: normal;
-font-weight: 400;
-font-size: 55px;
-line-height: 63px;
-
-color: #E3D399;
->>>>>>> 41326825855df6f3aa6f193bcecac52aed0fefcb
 }
 
 
@@ -65,17 +54,16 @@ color: #E3D399;
 width: 566px;
 height: 509px;
 left: 83px;
-top: 1244px;
-
+top: 1050px;
 border-radius: 15px;  
 }
 
 .about_bbs{
     position: absolute;
-width: 691px;
-height: 545px;
+width: 100vh;
+height: 100vh;
 left: 701px;
-top: 1244px;
+top: 1100px;
 
 font-family: 'Arimo';
 font-style: normal;
@@ -84,4 +72,35 @@ font-size: 25px;
 line-height: 29px;
 
 color: #FFFFFF;
+}
+
+.about {
+    width: 100%;
+height: 110vh;
+
+    background: #000002;
+}
+
+.head_about {
+    
+
+    /* About us */
+
+position: absolute;
+width: 287px;
+height: 93px;
+
+top: 115%;
+
+font-family: 'Titan One';
+font-style: normal;
+font-weight: 1000;
+font-size: 55px;
+left: 45%;
+line-height: 100px;
+
+color: #E3D399;
+
+margin: auto;
+text-decoration: underline;
 }
