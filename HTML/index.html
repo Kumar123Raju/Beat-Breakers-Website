@@ -10,19 +10,19 @@
 </head>
 
 <body>
-   
+
     <div class="front">
         <div class="navbar">
             <ul>
-                <li><a  class="nav">Home</a></li>
+                <li><a class="nav">Home</a></li>
                 <li><a class="nav">Events</a></li>
                 <li><a class="nav">Watch</a></li>
                 <li><a class="nav">Teams</a></li>
                 <li><a class="nav">About Us</a></li>
                 <li><a class="nav">Contact Us</a></li>
-                
+
             </ul>
-    
+
         </div>
         <p id="head_font">Beat Breakers</p>
     </div>
@@ -33,7 +33,7 @@
 
         <div class="image">
             <img src="/Images/andre-hunter-p-I9wV811qk-unsplash.jpg" alt="">
-            
+
         </div>
         <div class="about_bbs">
             <p>Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula,
@@ -46,6 +46,134 @@
             </p>
         </div>
     </div>
+
+    <div class="event-section">
+        <h3>Events</h3>
+        <div class="event-wrap">
+            <img src="/Images/Events/back.png" alt="" id="backBtn">
+            <div class="events">
+                <div>
+                    <span><img src="/Images/Events/Pic1.webp" alt=""></span>
+                    <span><img src="/Images/Events/Pic2.webp" alt=""></span>
+                    <span><img src="/Images/Events/Pic3.webp" alt=""></span>
+                </div>
+                <div>
+                    <span><img src="/Images/Events/Pic1.webp" alt=""></span>
+                    <span><img src="/Images/Events/Pic2.webp" alt=""></span>
+                    <span><img src="/Images/Events/Pic3.webp" alt=""></span>
+                </div>
+            </div>
+            <img src="/Images/Events/next.png" alt="" id="nextBtn">
+
+        </div>
+    </div>
+    <div class="gallery_section">
+        <div>
+        <h3>Gallery</h3>
+       </div>
+        <div class="gallery">
+            <div>
+                <span><img src="/Images/Events/Pic1.webp" alt=""></span>
+                <span><img src="/Images/Events/Pic2.webp" alt=""></span>
+                <span><img src="/Images/Events/Pic3.webp" alt=""></span>
+            </div>
+            <div>
+                <div>
+        <span><img src="/Images/Events/Pic1.webp" alt=""></span>                <span><img src="/Images/Events/Pic2.webp" alt=""></span>
+                 <span><img src="/Images/Events/Pic3.webp" alt=""></span>
+                </div>
+            </div>
+
+        </div>
+            <div >
+                <a href="www.google.com">see more...</a>
+            </div>
+         
+    </div>
+    <div class="team">
+        <div class="head">
+            <div class="team_headline">
+                <h3>Team</h3>
+            </div>
+
+            <div class="position">
+                <div class="pos1">
+                    <img src="/Images/Team/pic1.jpeg" alt="">
+                </div>
+                <div class="pos2">
+                    <img src="/Images/Team/pic1.jpeg" alt="">
+                </div>
+                <div class="pos3">
+                    <img src="/Images/Team/pic1.jpeg" alt="">
+                </div>
+                <div class="pos4">
+                    <img src="/Images/Team/pic1.jpeg" alt="">
+                </div>
+
+                <div class="pos1_text nameplate">
+                    <h3>Name</h3>
+                    <h4>possition</h4>
+                </div>
+                <div class="pos2_text nameplate">
+                    <h3>Name</h3>
+                    <h4>possition</h4>
+                </div>
+                <div class="pos3_text nameplate">
+                    <h3>Name</h3>
+                    <h4>possition</h4>
+                </div>
+                <div class="pos4_text nameplate">
+                    <h3>Name</h3>
+                    <h4>possition</h4>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="contact_section">
+        <div class="contact_headline">
+            <h3>Contact</h3>
+        </div>
+        <div class="contact_container">
+            <div class="content">
+                <h4>beat_breaker,NIT jamshedpur</h4>
+                <h4>Email:-rjrajujames123@gmail.com</h4>
+                <h4>phone_no: 9798118939</h4>
+            </div>
+            <div class="contact_form">
+               
+                    <input type="text" id="name" value="name">
+                    <input type="email" id="email" value="email">
+         <textarea id="w3review" name="w3review" rows="4" cols="50"></textarea>
+               
+
+
+            </div>
+        </div>
+    </div>
 </body>
+<script>
+    let scrollContainer = document.querySelector(".events");
+    let backBtn = document.getElementById("backBtn");
+    let nextBtn = document.getElementById("nextBtn");
+
+    scrollContainer.addEventListener("wheel", (evt) => {
+        evt.preventDefault();
+        scrollContainer.scrollLeft += evt.deltaY;
+
+        scrollContainer.style.scrollBehavior = "auto";
+    });
+
+    nextBtn.addEventListener("click", () => {
+        scrollContainer.style.scrollBehavior = "smooth";
+        scrollContainer.scrollLeft += 900;
+    });
+
+
+    backBtn.addEventListener("click", () => {
+        scrollContainer.scrollLeft -= 900;
+
+        scrollContainer.style.scrollBehavior = "smooth";
+    });
+</script>
 
 </html>
